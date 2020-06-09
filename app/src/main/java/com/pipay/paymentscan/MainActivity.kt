@@ -106,10 +106,8 @@ class MainActivity : AppCompatActivity() {
          */
 
         if (requestCode == REQUEST_CODE_SCAN && resultCode == Activity.RESULT_CANCELED) {
-            val isSuccessful = data?.getBooleanExtra("isSuccessful", false) == true
-
             // The result from the app.
-            if (!isSuccessful) {
+            if (data?.getBooleanExtra("isSuccessful", false) == false) {
                 Toast.makeText(
                     this,
                     "Please update the app to the latest version.",
@@ -133,7 +131,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val PI_PAY_PACKAGE_NAME = "com.pipay.app.android"
+        private const val PI_PAY_PACKAGE_NAME = "com.pipay"
         private const val REQUEST_CODE_SCAN = 1
     }
 }

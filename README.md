@@ -1,5 +1,7 @@
 ## Pi Pay - Payments Scan Sample
 
+![Android Build Debug](https://github.com/pi-pay/payments-scan-sample/workflows/Android%20Build%20Debug/badge.svg)
+
 This is a project showing how to directly open Pi Pay app via Pi Pay app links.
 
 

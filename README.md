@@ -1,4 +1,4 @@
-# Pi Pay - Scan Sample
+# Pi Pay - Payments Scan Sample
 
 This is a project showing how to directly open Pi Pay app via Pi Pay app links.
 

@@ -4,6 +4,7 @@
 
 This is a project showing how to directly open Pi Pay app via Pi Pay app links.
 
+> Download the APK artifacts in the [Github Actions](https://github.com/pi-pay/payments-scan-sample/actions)
 
 ## License
 ```
